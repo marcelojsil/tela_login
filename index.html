@@ -4,38 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Tela de Login / Cadastro</title>
 </head>
 <body>
     <div class="container">
-        <div class="first-content">
+        <div class="content first-content">
             <div class="first-column">
-                <h2 class="title">Welcome back!</h2>
-                <p class="description">To keep connected with us</p>
-                <p class="description">Please Login with your personal info</p>
-                <button class="btn">sign in</button>
+                <h2 class="title title-primary">Welcome back!</h2>
+                <p class="description description-primary">To keep connected with us</p>
+                <p class="description description-primary">Please Login with your personal info</p>
+                <button class="btn btn-primary">sign in</button>
             </div> <!-- first-column -->
             <div class="second-column">
-                <h2 class="title">create account</h2>
+                <h2 class="title title-second">create account</h2>
                 <div class="social-media">
                     <ul class="list-social-media">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Google+</a></li>
-                        <li><a href="#">Linkedin</a></li>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-facebook-f"></i></a></li>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-google-plus-g"></i></a></li>
+                        <a class="link-social-media" href="#"><li class="item-social-media"><i class="fab fa-linkedin-in"></i></i></a></li>
                     </ul>
                 </div>
-                <p class="description">or use your mail for registration:</p>
+                <p class="description-second">or use your mail for registration:</p>
                 <form class="form">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                    <button class="btn">sign up</button>
+                    <label class="label-input" for=""><i class="far fa-user icon-modify"></i><input type="text" placeholder="Name"></label>
+                    <label class="label-input" for=""><i class="far fa-envelope icon-modify"></i><input type="email" placeholder="Email"></label>
+                    <label class="label-input" for=""><i class="fas fa-lock icon-modify"></i><input type="password" placeholder="Password"></label>
+                    <button class="btn btn-second">sign up</button>
                 </form>
             </div> <!-- second-column -->
         </div> <!-- first-content -->
-        <div class="second-content">
-            <div class="first-column">
+        <div class="content second-content">
+            <div class="second-column">
                 <h2 class="title">Welcome back!</h2>
                 <p class="description">To keep connected with us</p>
                 <p class="description">Please Login with your personal info</p>
