@@ -21,7 +21,7 @@ body {
     background-color: #fff;
     border-radius: 15px;
     width: 80%;
-    height: 50%;
+    height: 70%;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -32,6 +32,7 @@ body {
     background-color: #58af9b;
     width: 40%;
     height: 100%;
+    border-radius: 15px 0 0 15px;
 }
 .title {
     color: #fff;
@@ -107,7 +108,7 @@ body {
 .link-social-media:not(:first-child) {
     margin-left: 10px;
 }
-.link-social-media:hover .item-social-media {
+.link-social-media .item-social-media:hover {
     background-color: #58af9b;
     color: #fff;
     border-color: #58af9b;
@@ -127,8 +128,11 @@ body {
 .item-social-media:not(:first-child){ /*atribui o estilo a todos menos o primeiro atributo filho */
     margin-left: 10px;
 }
-.item-social-media a {
+.fab {
     color: #95a5a6;
+}
+.fab:hover {
+    color: #fff;
 }
 .form {
     display: flex;
@@ -139,6 +143,7 @@ body {
     height: 45px;
     width: 100%;
     background-color: #ecf0f1;
+    border: none;
 }
 .label-input {
     background-color: #ecf0f1;
